@@ -86,9 +86,9 @@ def premier_occ1(ch, c):
 class Generator:
     def __init__(self, ch): # Create the class with 2 attributes 
         self.ch = ch # Store the input string 
-        self.index = 0  # Store the cuurent index (from 0)
+        self.index = 0  # Store the curent index (from 0)
     
-    def get_index_and_character(self):  # Return a tuple containing the 'index' and the 'charater' at that index
+    def get_index_and_character(self):  # Return a tuple containing the 'index' and the 'character' at that index
         if self.index < len(self.ch):
             res = (self.index, self.ch[self.index])
             self.index += 1
